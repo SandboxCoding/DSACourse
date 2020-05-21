@@ -5,6 +5,9 @@ print(numbers)
 
 # Exercício 2 - Crie uma lista de 5 objetos e imprima na tela
 
+objects = ["Pen", "Pencil", "Eraser", "Sulphite Sheet", "Drawing Tablet"]
+print(objects)
+
 # Exercício 3 - Crie duas strings e concatene as duas em uma terceira string
 
 # Exercício 4 - Crie uma tupla com os seguintes elementos: 1, 2, 2, 3, 4, 4, 4, 5 e depois utilize a função count do 
