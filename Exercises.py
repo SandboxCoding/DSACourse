@@ -23,7 +23,13 @@ print(tuple.count("4"))
 
 #Exercício 5 - Crie um dicionário vazio e imprima na tela
 
+dict = []
+print(dict)
+
 #Exercício 6 - Crie um dicionário com 3 chaves e 3 valores e imprima na tela
+
+dict_members = {"Abiel":28, "Paulo":60, "Abner":34}
+print(dict_members)
 
 #Exercício 7 - Adicione mais um elemento ao dicionário criado no exercício anterior e imprima na tela
 
