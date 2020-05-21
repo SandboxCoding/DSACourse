@@ -1,5 +1,8 @@
 # Exercício 1 - Imprima na tela os números de 1 a 10. Use uma lista para armazenar os números.
 
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers)
+
 # Exercício 2 - Crie uma lista de 5 objetos e imprima na tela
 
 # Exercício 3 - Crie duas strings e concatene as duas em uma terceira string
