@@ -38,6 +38,11 @@ print(dict_members)
 
 #Exercício 7 - Adicione mais um elemento ao dicionário criado no exercício anterior e imprima na tela
 
+dict_members2 = {"Mari":54}
+dict_members.update(dict_members2)
+print(dict_members)
+#Result: {'Abiel': 28, 'Paulo': 60, 'Abner': 34, 'Mari': 54}
+
 #Exercício 8 - Crie um dicionário com 3 chaves e 3 valores. Um dos valores deve ser uma lista de 2 elementos numéricos.
 #Imprima o dicionário na tela.
 
