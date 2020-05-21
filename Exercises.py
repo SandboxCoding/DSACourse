@@ -46,6 +46,11 @@ print(dict_members)
 #Exercício 8 - Crie um dicionário com 3 chaves e 3 valores. Um dos valores deve ser uma lista de 2 elementos numéricos.
 #Imprima o dicionário na tela.
 
+dict_members_approx = {"Abiel":28, "Paulo":60, "Abner":34}
+dict_members_approx["Abiel"] = ["28", "29"]
+print(dict_members_approx)
+#Result: {'Abiel': ['28', '29'], 'Paulo': 60, 'Abner': 34}
+
 #Exercício 9 - Crie uma lista de 4 elementos. O primeiro elemento deve ser uma string,
 #o segundo uma tupla de 2 elementos, o terceiro um dcionário com 2 chaves e 2 valores e
 #o quarto elemento um valor do tipo float.
