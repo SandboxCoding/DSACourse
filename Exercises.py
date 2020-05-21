@@ -69,4 +69,4 @@ print(list_members_family)
 
 frase = 'Cientista de Dados é o profissional mais sexy do século XXI'
 print(frase[0:18])
-#Resultado: Cientista de Dados
+#Result: Cientista de Dados
