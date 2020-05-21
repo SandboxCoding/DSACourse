@@ -2,11 +2,13 @@
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 print(numbers)
+#Result: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 #Exercício 2 - Crie uma lista de 5 objetos e imprima na tela
 
 objects = ["Pen", "Pencil", "Eraser", "Sulphite Sheet", "Drawing Tablet"]
 print(objects)
+#Result: ['Pen', 'Pencil', 'Eraser', 'Sulphite Sheet', 'Drawing Tablet']
 
 #Exercício 3 - Crie duas strings e concatene as duas em uma terceira string
 
@@ -14,22 +16,25 @@ a = "Abiel"
 m = " Machioni"
 am = a + m
 print(am)
+#Result: Abiel Machioni
 
 #Exercício 4 - Crie uma tupla com os seguintes elementos: 1, 2, 2, 3, 4, 4, 4, 5 e depois utilize a função count do
 #objeto tupla para verificar quantas vezes o número 4 aparece na tupla
 
 tuple = ("1", "2", "2", "3", "4", "4", "4", "5")
 print(tuple.count("4"))
+#Result: 3
 
 #Exercício 5 - Crie um dicionário vazio e imprima na tela
 
-dict = []
+dict = {}
 print(dict)
-
+#Result: {}
 #Exercício 6 - Crie um dicionário com 3 chaves e 3 valores e imprima na tela
 
 dict_members = {"Abiel":28, "Paulo":60, "Abner":34}
 print(dict_members)
+#Result: {'Abiel': 28, 'Paulo': 60, 'Abner': 34}
 
 #Exercício 7 - Adicione mais um elemento ao dicionário criado no exercício anterior e imprima na tela
 
