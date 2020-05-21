@@ -18,6 +18,9 @@ print(am)
 #Exercício 4 - Crie uma tupla com os seguintes elementos: 1, 2, 2, 3, 4, 4, 4, 5 e depois utilize a função count do
 #objeto tupla para verificar quantas vezes o número 4 aparece na tupla
 
+tuple = ("1", "2", "2", "3", "4", "4", "4", "5")
+print(tuple.count("4"))
+
 #Exercício 5 - Crie um dicionário vazio e imprima na tela
 
 #Exercício 6 - Crie um dicionário com 3 chaves e 3 valores e imprima na tela
