@@ -56,5 +56,13 @@ print(dict_members_approx)
 #o quarto elemento um valor do tipo float.
 #Imprima a lista na tela.
 
+a = "Abiel"
+qm = ("Queiroz", "Machioni")
+dict_birthdate = {"Month":9, "Year":1991}
+birthday = float(11)
+list_members_family = [a, qm, dict_birthdate, birthday]
+print(list_members_family)
+#Result: ['Abiel', ('Queiroz', 'Machioni'), {'Month': 9, 'Year': 1991}, 11.0]
+
 #Exercício 10 - Considere a string abaixo. Imprima na tela apenas os caracteres da posição 1 a 18.
 #frase = 'Cientista de Dados é o profissional mais sexy do século XXI'
