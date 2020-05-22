@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.idea
+git rm --cached -r .idea
 .env
 .venv
 env/
