@@ -8,7 +8,7 @@ if ab == 6:
 else:
     print("Failure")
 
-#Trying some random thing
+#Trying some random things
 month = int(input("Enter a month in numeric form from 1-12: "))
 
 if month in list(range(1, 3)):
