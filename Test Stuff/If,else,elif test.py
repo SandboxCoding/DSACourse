@@ -20,4 +20,4 @@ elif month in list(range(7, 10)):
 elif month in list(range(10, 13)):
     print("It's the fourth quarter of the month.")
 else:
-    print("The number", month, "does not correspond to a valid month.")
+    print("The number %s does not correspond to a valid month." %(month))
