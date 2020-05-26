@@ -67,7 +67,13 @@ while value <= 20:
     value = value + 2
 
 # Exercício 8 - Transforme o resultado desta função range em uma lista: range(5, 45, 2)
+
 nums = range(5, 45, 2)
+result = []
+for i in nums:
+    result.append(i)
+    print(result)
+
 
 # Exercício 9 - Faça a correção dos erros no código abaixo e execute o programa. Dica: são 3 erros.
 temperatura = float(input('Qual a temperatura? '))
