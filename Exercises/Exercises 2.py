@@ -91,3 +91,6 @@ else:
 # vantagem de existir.” (Machado de Assis)
 
 frase = "É melhor, muito melhor, contentar-se com a realidade; se ela não é tão brilhante como os sonhos, tem pelo menos a vantagem de existir."
+
+count = frase.count('r')
+print('The total count of "r" in this phrase is: %s' %(count))
