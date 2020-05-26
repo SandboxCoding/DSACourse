@@ -74,12 +74,14 @@ for i in nums:
     result.append(i)
     print(result)
 
+#A better, simplistic code for this exercise should be: print(list(nums))
+
 
 # Exercício 9 - Faça a correção dos erros no código abaixo e execute o programa. Dica: são 3 erros.
 temperatura = float(input('Qual a temperatura? '))
-if temperatura > 30
-print('Vista roupas leves.')
-else
+if temperatura > 30:
+    print('Vista roupas leves.')
+else:
     print('Busque seus casacos.')
 
 # Exercício 10 - Faça um programa que conte quantas vezes a letra "r" aparece na frase abaixo. Use um placeholder na
