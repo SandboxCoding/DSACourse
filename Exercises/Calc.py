@@ -22,3 +22,6 @@ elif opcao == 4:
     primeiro = float(input('Digite o primeiro número: '))
     segundo = float(input('Digite o segundo número: '))
     print(primeiro / segundo)
+
+else:
+    print('Opção inválida.')
