@@ -6,22 +6,22 @@ opcao = int(input('Digite sua opção (1/2/3/4):'))
 if opcao == 1:
     primeiro = float(input('Digite o primeiro número: '))
     segundo = float(input('Digite o segundo número: '))
-    print(primeiro + segundo)
+    print(primeiro, "+", segundo, "=", primeiro + segundo)
 
 elif opcao == 2:
     primeiro = float(input('Digite o primeiro número: '))
     segundo = float(input('Digite o segundo número: '))
-    print(primeiro - segundo)
+    print(primeiro, "-", segundo, "=", primeiro - segundo)
 
 elif opcao == 3:
     primeiro = float(input('Digite o primeiro número: '))
     segundo = float(input('Digite o segundo número: '))
-    print(primeiro * segundo)
+    print(primeiro, "*", segundo, "=", primeiro * segundo)
 
 elif opcao == 4:
     primeiro = float(input('Digite o primeiro número: '))
     segundo = float(input('Digite o segundo número: '))
-    print(primeiro / segundo)
+    print(primeiro, "/", segundo, "=", primeiro / segundo)
 
 else:
     print('Opção inválida.')
