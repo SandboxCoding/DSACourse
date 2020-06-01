@@ -1,7 +1,10 @@
 print('Selecione o número da operação desejada:\n')
-print('1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão \n' )
+print('1 - Soma')
+print('2 - Subtração')
+print('3 - Multiplicação')
+print('4 - Divisão')
 
-opcao = int(input('Digite sua opção (1/2/3/4):'))
+opcao = int(input('\nDigite sua opção (1/2/3/4):'))
 
 if opcao == 1:
     primeiro = float(input('Digite o primeiro número: '))
