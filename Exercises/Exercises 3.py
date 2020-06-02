@@ -1,4 +1,5 @@
 #Exercício 1 - Crie uma lista de 3 elementos e calcule a terceira potência de cada elemento.
+from typing import List, Any
 
 num = [1,2,3]
 result = []
@@ -6,6 +7,11 @@ for i in num:
     potencia = i ** 3
     result.append(potencia)
     print(result)
+
+#Thought about another alternative too, with less lines of code.
+num = [1,2,3]
+result = [x**3 for x in num]
+print(result)
 
 #Exercício 2 - Reescreva o código abaixo, usando a função map(). O resultado final deve ser o mesmo!
 palavras = 'A Data Science Academy oferce os melhores cursos de análise de dados do Brasil'.split()
@@ -17,6 +23,12 @@ for i in resultado:
 #Caso não saiba o que é matriz transposta, visite este link: https://pt.wikipedia.org/wiki/Matriz_transposta
 #Matriz transposta é um conceito fundamental na construção de redes neurais artificiais, base de sistemas de IA.
 matrix = [[1, 2],[3,4],[5,6],[7,8]]
+result = [[0,0,0,0,],[0,0,0,0]]
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        result[j][i] = matrix[i][j]
+        print(result)
+
 
 #Exercício 4 - Crie duas funções, uma para elevar um número ao quadrado e outra para elevar ao cubo.
 #Aplique as duas funções aos elementos da lista abaixo.
