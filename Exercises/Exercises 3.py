@@ -1,5 +1,12 @@
 #Exercício 1 - Crie uma lista de 3 elementos e calcule a terceira potência de cada elemento.
 
+num = [1,2,3]
+result = []
+for i in num:
+    potencia = i ** 3
+    result.append(potencia)
+    print(result)
+
 #Exercício 2 - Reescreva o código abaixo, usando a função map(). O resultado final deve ser o mesmo!
 palavras = 'A Data Science Academy oferce os melhores cursos de análise de dados do Brasil'.split()
 resultado = [[w.upper(), w.lower(), len(w)] for w in palavras]
